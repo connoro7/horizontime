@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0, shrink-to-fit=no" /> -->
+    <!--<meta http-equiv="Cache-control" content="no-cache" /> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="shortcut icon" href="favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/gif" href="favicon/favicon-32x32.png" />
+    <!-- SEO -->
+    <meta name="description" content="Horizon timezones" />
+    <meta name="keywords" content="horizon, horizontime, timezone" />
+    <meta name="author" content="Connor Dillon" />
+    <title>Horizon Time</title>
+
+    <!-- Leaflet.js -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script> -->
+  </head>
+  <body>
+    <header>
+      <h1>Horizon Time</h1>
+    </header>
+    <main>
+      <div class="zone" id="seattle">
+        <h2>Seattle, WA</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="pullman">
+        <h2>Pullman, WA</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="corvallis">
+        <h2>Corvallis, OR</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="eugene">
+        <h2>Eugene, OR</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="sacramento">
+        <h2>Sacramento, CA</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="riverside">
+        <h2>Riverside, CA</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="reno">
+        <h2>Reno, NV</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="provo">
+        <h2>Provo, UT</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="clearfield">
+        <h2>Clearfield, UT</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="tuscon">
+        <h2>Tuscon, AZ</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="tempe">
+        <h2>Tempe, AZ</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="denton">
+        <h2>Denton, TX</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="college-station">
+        <h2>College Station, TX</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="austin">
+        <h2>Austin, TX</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="west-lafayette">
+        <h2>West Lafayette, IN</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="south-bend">
+        <h2>South Bend, IN</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="knoxville">
+        <h2>Knoxville, TN</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="raleigh">
+        <h2>Raleigh, NC</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="fayetteville">
+        <h2>Fayetteville, NC</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="orlando">
+        <h2>Orlando, FL</h2>
+        <p class="time"></p>
+      </div>
+      <div class="zone" id="tampa">
+        <h2>Tampa, FL</h2>
+        <p class="time"></p>
+      </div>
+    </main>
+    <footer id="sticky-footer" class="child">
+      <div class="container text-center footer_icons" target="_blank">
+        <a href="https://github.com/connoro7/horizontime" target="_blank">
+          <i class="fas fa-github fa-2x"></i>
+        </a>
+      </div>
+      <div class="footer-text">Copyright &copy; 2020 Connor Dillon</div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

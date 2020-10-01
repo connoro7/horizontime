@@ -1,0 +1,27 @@
+{
+  "name": "horizontime",
+  "version": "1.0.0",
+  "description": "Property timezone GUI",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o public/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connoro7/horizontime.git"
+  },
+  "keywords": [
+    "horizon",
+    "timezone"
+  ],
+  "author": "Connor Dillon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/connoro7/horizontime/issues"
+  },
+  "homepage": "https://github.com/connoro7/horizontime#readme",
+  "dependencies": {
+    "moment-timezone": "^0.5.31",
+    "node-sass": "^4.14.1"
+  }
+}

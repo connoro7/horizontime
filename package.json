@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/connoro7/horizontime#readme",
   "dependencies": {
-    "moment-timezone": "^0.5.31",
+    "luxon": "^1.25.0",
     "node-sass": "^4.14.1"
   }
 }
